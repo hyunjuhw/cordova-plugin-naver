@@ -14,7 +14,7 @@
     [NaverThirdPartyLoginConnection getSharedInstance].delegate = self;
 
     // 네이버 앱과, 인앱 브라우저 인증을 둘다 사용하도록 설정
-    [[NaverThirdPartyLoginConnection getSharedInstance] setIsNaverAppOauthEnable:YES];
+    [[NaverThirdPartyLoginConnection getSharedInstance] setIsNaverAppOauthEnable:NO];
     [[NaverThirdPartyLoginConnection getSharedInstance] setIsInAppOauthEnable:YES];
 
     // 세로 화면 고정 설정
